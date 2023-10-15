@@ -1,0 +1,23 @@
+export PATH=~/bin:~/lib/oracle-cli/bin:$PATH
+source ~/.bashrc
+
+export TF_VAR_user_ocid=ocid1.user.oc1..aaaaaaaabscchecn5pxzscfl3yx45r6ubzsshcpp7ls6pzmwmybpppsam76a
+export TF_VAR_tenancy_ocid=ocid1.tenancy.oc1..aaaaaaaafzjv6x3bhu6jjig3ascvqch6nffnpooftk7hnobdxuhzdhggbxqq
+export TF_VAR_fingerprint=d8:78:e0:d1:e3:c1:0b:eb:94:24:23:6a:ea:6c:d3:28:dc
+export TF_VAR_region=us-sanjose-1
+
+export TF_VAR_private_key_path=~/.oci/oci_api_key.pem
+
+export TF_VAR_ssh_private_key=~/.ssh/cloudshellkey
+export TF_VAR_ssh_public_key=~/.ssh/cloudshellkey.pub
+
+export TF_VAR_compartment_ocid=ocid1.compartment.oc1..aaaaaaaauebt5md346z3jaga6ghxcuxevleemmnc2hg4yhqufsxg7p7hddjq
+
+export T=ocid1.tenancy.oc1..aaaaaaaaiyavtwbz4kyu7g7b6wglllccbflmjx2lzk5nwpbme44mv54xu7dq
+export C=ocid1.compartment.oc1..aaaaaaaauebt5md346z3jaga6ghxcuxevleemmnc2hg4yhqufsxg7p7hddjq
+
+export ANSIBLE_HOST_KEY_CHECKING=false
+
+export TF_LOG=INFO
+export TF_LOG_PATH=~/terraform-ws/tf.log
+
